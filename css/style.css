@@ -1,6 +1,10 @@
 @charset "utf-8";
 body, h1, h2, h3, h4, h5, h5{
     font-family:'Open Sans', sans-serif;
+  
+}
+html{
+    scroll-behavior: smooth;
 }
  p{
     font-size:14px;
@@ -154,10 +158,45 @@ body, h1, h2, h3, h4, h5, h5{
 }
  #banner{
     padding:90px 0 200px;
+    height: 41rem;
     color:#FFF;
     background:url(../images/banner1.jpg) repeat scroll center 0/cover;
     position:relative;
 }
+.user-login{
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    width: 25rem;
+    height: 8rem;
+    margin-left: 35rem;
+    font-size: x-large;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    cursor: pointer;
+    
+}
+.worker-login:hover{
+    opacity: 1;
+}
+.user-login:hover{
+    opacity: 1;
+}
+.worker-login{
+    margin-left: 25rem;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.6;
+    cursor: pointer;
+    width: 25rem;
+    height: 8rem;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
  #banner .panel-heading{
     margin-top:15px !important;
 }
