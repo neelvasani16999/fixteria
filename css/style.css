@@ -158,10 +158,11 @@ html{
 }
  #banner{
     padding:90px 0 200px;
-    height: 41rem;
-    color:#FFF;
-    background:url(../images/banner1.jpg) repeat scroll center 0/cover;
+    height: 80rem;
+    color:black;
+    background-color:#c4edf5;
     position:relative;
+    
 }
 .user-login{
     text-align: center;
