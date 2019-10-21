@@ -4035,3 +4035,22 @@ table.table-inbox tbody tr.checked {
     margin: auto;
     padding: 20px;
 }
+.user-dashboard-main{
+
+    width: 80%;
+    display: flex;
+    height: auto;
+    margin: auto;
+	padding: 20px;
+	
+}
+.user-pending{
+	width: 50%;
+	height: 100%;
+	margin-right: 15px;
+}
+.user-completed{
+	width: 50%;
+	height: 100%;
+	margin-left: 15px;
+}
